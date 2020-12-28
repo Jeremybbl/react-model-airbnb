@@ -1,0 +1,39 @@
+@import 'src/styles/vars';
+
+.post {
+  width: 100%;
+  padding: $gutter;
+
+  @media (min-width: 600px) {
+    width: 50%;
+  }
+
+  &:hover {
+    background-color: $post-hover-color;
+  }
+
+  &-title {
+    font-family: $title-font;
+    font-weight: $title-font-weight;
+    font-size: 1.3em;
+    color: $title-color;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  &-category {
+    background-color: $primary-color;
+    color: $light-color;
+    display: inline-block;
+    padding: 0.3em 0.7em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  &-excerpt {
+    margin-top: 0.5rem;
+    font-weight: 300;
+    color: $post-text-color;
+  }
+}
