@@ -18,7 +18,7 @@
     "babel-loader": "*",
     "bundle-stats-webpack-plugin": "*",
     "clean-webpack-plugin": "*",
-    "copy-webpack-plugin": "*",
+    "copy-webpack-plugin": "^4.0.0",
     "cross-env": "*",
     "css-loader": "*",
     "cssnano": "*",
